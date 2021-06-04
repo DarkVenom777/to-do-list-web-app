@@ -1,0 +1,32 @@
+<HTML>
+    <HEAD>
+        <link rel="stylesheet" href="style.css"> </HEAD>
+        <div id="form" class "header" >
+    <Body>
+            <h1 class="heading"> To Do List App </h1> <BR><BR><BR>
+            <form id="frm" name="newtask" ACTION=" " METHOD="GET">
+                <span style="white-space:nowrap">
+                    <label class="subheading" for="ip"> Enter your Task </label>
+
+
+                    <Input id="ip" onfocus="this.value=''" class="ipfield" type="text" NAME="task" Value=" "> <BR/>
+                </span>
+                <span style="white-space:nowrap">
+                <label class="subheading" for="dl"> Please Enter The Deadline </label>
+
+                <Input id="dl" class="ipfield" onfocus="this.value=''" type="text">
+                </span>
+                <center><Input class="btn" type="Button"  onClick="addTask();", value="Add Task">
+                </center>
+
+
+            </form>
+
+
+
+            </div>
+        <div id="taskdiv" class="para"> <ul id="task"> </ul></div>
+            <script src="main.js"></script>
+        </Body>
+
+</HTML>
